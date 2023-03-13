@@ -1,0 +1,110 @@
+
+
+p {
+  font-size: 25px;
+}
+
+.subbody {
+ /*
+  background-image: url("blu1.JPG");
+  background-repeat: no-repeat;
+  background-size:cover;
+  background-attachment: fixed;
+   */
+   background-color: rgba(255, 255, 255, 0.336);
+}
+
+.chart {
+  background: #fff;
+  margin: 5px;
+}
+
+.sitemain {
+  margin-left: 10%;
+  margin-right: 10%
+}
+
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 40px;
+    height: 100%;
+  }
+
+.switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+  }
+
+  /* The selector */
+.selector {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    /*background-color: #ccc; */
+    -webkit-transition: .4s;
+    transition: .4s;
+    border-radius: 15px;
+  }
+  
+  .correction{
+    display: inline-block;
+    color:rgb(255, 68, 68);
+    transform-origin: top left;
+    transform: rotate(-20deg) !important;
+
+  }
+
+  .embedded{
+    display: block;
+width:30vw;
+  height: calc(30vw/2);
+  margin: auto;
+}
+
+video{
+  display: block;
+width:60vw;
+height: calc(60vw/2);
+margin: auto;
+}
+
+  .mass {
+    background-color: blue;
+    opacity: .4;
+  }
+
+  .murder {
+      background-color: orange;
+      opacity: .4;
+  }
+
+  
+  .date {
+    background-color: gray;
+    opacity: .4;
+}
+
+/* 
+  .selector:before {
+    position: absolute;
+    content: "";
+    height: 20px;
+    width: 20px;
+    left: 0px;
+    bottom: 0px;
+    background-color: white;
+    -webkit-transition: .4s;
+    transition: .4s;
+    border-radius: 50%;
+  }
+ */
+  .selector.mass {
+    outline-color: black; 
+  }
+  
+  
